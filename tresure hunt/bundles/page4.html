@@ -1,0 +1,34 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'24</title>
+    <link rel="stylesheet" href="page4.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br>
+    </div>
+    <div class="form" >
+        <h2>What is the extension of HTML?</h2>       
+            <input type="text" placeholder="Answer" required="required" id="ans">
+          <button onclick="verify()">Let's Play</button>
+        </div>
+
+
+        <script>
+            var loot
+            function verify()
+            {   loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n===".html")
+                {
+                 window.location.href = '../page5.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+
+</body>
+</html>

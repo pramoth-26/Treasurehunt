@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-image: url(assets/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.headerp{
+    background-image: url(assets/headerl.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: flex;
+}
+
+.content{
+        padding-left: 40%;
+}
+
+ #reader{
+    align-content: center;
+    width: 300px;
+    
+ }
+ #result{
+    display: none;
+ }
+#btn{
+    
+        background-color: rgb(51, 142, 245);
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+        padding: 20px;
+        margin-left: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    /* adds shadow effect to button2 on hover*/
+    #btn:hover {
+        box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
+    }
+
+  
+@media (max-width: 991px){
+
+
+    .form {
+        max-width: 250px;
+        top: 130px;
+        
+      }
+    .headerp{
+        
+        width: 100%;
+    }
+    .content{
+        padding-left: 20%;
+}
+    
+}
