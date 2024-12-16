@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',(event)=> {
 function main(){
    const data = document.getElementById('dataInput').value;
   localStorage.setItem('sharedData', data);
-  window.location.href = 'rules.html'; // Redirect to Page 2
+  window.location.href = 'tresure hunt/rules.html'; // Redirect to Page 2
 }
 
 var n =document.getElementById('displayData').innerText;
